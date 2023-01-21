@@ -6,7 +6,7 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::cloudlab1/*",
+            "Resource": "arn:aws:s3:::dmytrolab1/*",
             "Condition": {
                 "NotIpAddress": {
                     "aws:SourceIp": "50.31.252.0/24"
